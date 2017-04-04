@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Playfair+Display:400,700,700i|Raleway:300,300i,400,500,500i,700,700i,800|Roboto+Slab');
+
+body {
+	
+	font-family: "Avenir Next", sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Avenir Next";
+	font-weight: 600;
+	font-size: 30px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+
+img {
+	max-width: 200px;
+}
+
+.bottom img {
+	max-width: 150px;
+}
+
+.project {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	position:relative;
+
+}
+
+.icon{
+	max-width: 100%;
+	margin-bottom: 0 !important;
+	position:relative;
+    top:0;
+    left:0;
+    
+}
+
+.overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+#water {
+	background-color: #008000;
+}
+
+#automation {
+	background-color: #303036;
+}
+
+#space {
+	background-color: black;
+}
+
+#smart {
+	background-color: #050561;
+}
+
+#steel {
+	background-color: mediumpurple;
+}
+
+#mountain {
+	background-color: cornflowerblue;
+}
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.projectcat, .learnmore {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.projectcat {
+	font-size: 36px;
+	color: #F6A623;
+	font-family: "Montserrat";
+	left: 50%;
+	top: 40%;
+	font-weight: bold;
+}
+
+.learnmore {
+	font-size: 20px;
+	font-family: "Avenir Next";
+	color: white;
+	left: 50%;
+	top: 60%;
+}
+
+a {
+	color:white;
+}
+
+a:hover {
+	color: white;
+}
+/** Header Navigation **/
+header .navbar {
+	padding: 30px 0;
+}
+
+header .navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+header .navbar-default .navbar-nav a {
+	color: white;
+	padding: 5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+	color: orange;
+} 
+
+header .navbar-default .navbar-nav .active a {
+	font-weight: 700;
+	color: orange;
+	background: transparent;
+	border-bottom: 	4px solid #EEC856;
+	text-shadow: none;
+
+} 
+
+header .navbar-default .navbar-nav .active a:hover {
+	color: #E15D5F;
+	background:transparent;
+	text-shadow: none;
+}
+
+header .navbar-brand span.subhead {
+	display: block;
+	font-family: "Roboto Slab", serif;
+	font-size:.6em;
+	font-weight: 100;
+
+}
+/**  Navbar Brand **/
+
+header .navbar-brand {
+	background: url("C:\Users\BradleyCao\Desktop\PISA Website\images\wisdompetlogo.svg");
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+	height: auto;
+}
+
+header .navbar-brand h1 {
+	color: white;
+	margin: 0;
+	font-size: 1.8em;
+	font-weight:400;
+	
+}
+
+/**navbar Toggle **/
+
+header .navbar-toggle {
+	background-color: orange;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+@media only screen and (max-width:768px){
+	header .navbar-collapse.in {
+	background-color: rgba(0,0,0, .5)
+}
+}
+
+
+/** Footer Navigation **/
+
+
+footer {
+	padding: 100px 0px;	
+	background-color: black;
+	color: WHITE;
+}
+
+footer a:hover {
+	color: orange;
+}
+.page {
+	padding: 50px 0
+}
+
+.page h2 {
+	text-align: center;	
+	margin-bottom: 30px;
+}
+
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	display: block;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+footer ul li:first-child {
+	padding-bottom:10px;
+	font-size: 20px; 
+}
+
+
+/**Page **/
+.page {
+	padding: 50px 0;
+}
+
+.page h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/** Page --About **/
+
+
+
+/** Page --Projects **/
+
+#projects {
+	background-color: lightgray;
+	text-align: center;
+}
+
+.project {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#projects img.icon {
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+/** PAGE- Service **/
+
+#services {
+	text-align: center;
+}
+
+#services h2{
+	padding-bottom: 30px;
+}
+
+#services h3 {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+@media only screen 
+and (min-width: 200px)
+and (max-width: 970px) {
+  #services p {
+	padding-bottom: 20px;
+  }
+
+  #companyFooter {
+	  margin-top: 20px;
+  }
+
+  #learnmoreFooter {
+	  margin-top: 20px;
+  }
+}
+
+@media only screen 
+and (min-width: 200px)
+and (max-width: 768px) {
+  footer li:last-child {
+	padding-bottom: 30px;
+  }
+
+  footer {
+	  text-align: center;
+	  padding: 50px 0;
+  }
+
+  footer img{
+	  padding-bottom: 50px;
+  }
+
+  #about p {
+	text-align: center;
+  }
+}
+/** Contact us **/
