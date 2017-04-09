@@ -415,3 +415,9 @@ and (max-width: 768px) {
     opacity: 1;
     transform: scale3d(0.9,0.9,1);    
 }
+
+/*** for gmap ***/
+#gmap_canvas img{
+    max-width:none!important;
+    background:none!important;
+}

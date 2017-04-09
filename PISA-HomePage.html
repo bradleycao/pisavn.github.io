@@ -15,6 +15,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>      
         <script src="owl.carousel/owl.carousel.min.js" type="text/javascript"></script>
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU'></script>
         <script src="javascript/myscript.js" type="text/javascript"></script>
     </head>
 
@@ -230,7 +231,32 @@
             <div class="page" id="contact">
                 <div class="content container">
                     <div class="contactUs">
-                        <img class="maponly" width="640" src="https://maps.googleapis.com/maps/api/staticmap?center=30+mai+hac+de,+Hanoi&zoom=16&scale=2&size=640x450&maptype=terrain&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff005c%7Clabel:1%7C30+mai+hac+de,+Hanoi" alt="Google Map of 30 mai hac de, Hanoi">
+
+                        <div style='overflow:hidden;height:400px;width:520px;'>
+                            <div id='gmap_canvas' style='height:400px;width:520px;'></div>                            
+                            <script type='text/javascript'>
+                                function init_map() {
+                                    var myOptions = {
+                                        zoom: 12,
+                                        center: new google.maps.LatLng(21.0250893, 105.85387660000004),
+                                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                                    };
+                                    map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                                    marker = new google.maps.Marker({
+                                        map: map, 
+                                        position: new google.maps.LatLng(21.0250893, 105.85387660000004)
+                                    });
+                                    infowindow = new google.maps.InfoWindow({
+                                        content: '<strong>Nha hat lon Ha noi</strong><br>01 Tràng Tiền, Hoàn Kiếm<br> Hanoi<br>'
+                                    });
+                                    google.maps.event.addListener(marker, 'click', function () {
+                                        infowindow.open(map, marker);
+                                    });
+                                    infowindow.open(map, marker);
+                                }
+                                google.maps.event.addDomListener(window, 'load', init_map);
+                            </script>
+                        </div>
                         <div class="textonMap"> 
                             <h3>Contact Us</h3>
                             <p>3235 Vine Street Apt 2, Cincinnati, Ohio</p>
