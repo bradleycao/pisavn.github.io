@@ -40,12 +40,15 @@ jQuery(document).ready(function ($) {
         }
 
     });
-    //Activate ScrollSpy
-//    $('body').scrollspy({
-//        target: 'header .navbar'
-//    });
-//
 
+    // showcase carousel
+    $(".carousel a.cd-btn").click(function(e) {             
+        e.preventDefault();
+        $(".navbar-right a[href='#projects']").click();
+        
+    })
+    
+    //branches carousel 
     $(".owl-carousel").owlCarousel({
         items:6,
         loop:true,

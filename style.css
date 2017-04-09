@@ -377,6 +377,29 @@ and (max-width: 768px) {
 }
 /** Contact us **/
 
+/*** Projects slideshow with caption ****/
+.carousel-caption {
+    top: 40%;
+    
+}
+.carousel-caption {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.carousel-caption p {
+    margin: 0 0 20px 0;
+}
+.carousel-caption a.cd-btn {  
+    text-decoration: none;
+    background: orange;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    border: 1px solid gray;
+}
+
 /*** Scroll of branches ***/
 .owl-carousel img {
     display: block;
