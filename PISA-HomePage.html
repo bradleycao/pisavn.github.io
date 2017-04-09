@@ -1,266 +1,257 @@
 <!--<!DOCTYPE html>-->
 <html lang="en-us">
 
-<head>
-    <meta charset="utf-8">
-    <title>PISA Joint Stock Company</title>
-    <link rel="JavaScript" href="/Javascript/myscript.js">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/style.css">
-    <script src="/Javascript/prefixfree.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PISA Joint Stock Company</title>       
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript/prefixfree.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>      
+        <script src="js/myscript.js"></script>
+    </head>
 
-<body>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-
-    <header>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                     </button>
-                    <a class="navbar-brand" href="#featured"><img src="/images/17779042_1381302161909168_2060554510_o.png" alt="logo"></a>
+    <body>
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#featured"><img src="/images/17779042_1381302161909168_2060554510_o.png" alt="logo"></a>
+                    </div>
+                    <!--navbar header -->
+                    <div class="collapse navbar-collapse" id="collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#featured">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!--collapse menu -->
                 </div>
-                <!--navbar header -->
-                <div class="collapse navbar-collapse" id="collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#featured">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+                <!-- container -->
+
+            </nav>
+            <div class="carousel slide" data-ride="carousel" id="featured">
+                <div class="carousel-inner">
+                    <div class="item active"> <img src="images/architecture-1868098_1920.jpg" alt="Automation"></div>
+                    <div class="item"><img src="images/control-cabinet-778639_1920.jpg" alt="Water Treatment"></div>
+                    <div class="item"><img src="images/To The Sun Wallpaper.jpg" alt="Smart Home"></div>
+                    <div class="item"><img src="images/1399624_598714196831268_525745213_o.jpg" alt="Steel"></div>
+                    <div class="item"><img src="images/space-2018735_1920.jpg" alt="Space"></div>
                 </div>
-                <!--collapse menu -->
+                <!--carousel inner -->
+                <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#featured" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
             </div>
-            <!-- container -->
+            <!--carousel slide -->
+        </header>
 
-        </nav>
-        <div class="carousel slide" data-ride="carousel" id="featured">
-            <div class="carousel-inner">
-                <div class="item active"> <img src="/images/architecture-1868098_1920.jpg" alt="Automation"></div>
-                <div class="item"><img src="/images/control-cabinet-778639_1920.jpg" alt="Water Treatment"></div>
-                <div class="item"><img src="/images/To The Sun Wallpaper.jpg" alt="Smart Home"></div>
-                <div class="item"><img src="/images/1399624_598714196831268_525745213_o.jpg" alt="Steel"></div>
-                <div class="item"><img src="/images/space-2018735_1920.jpg" alt="Space"></div>
+        <div class="main">
+            <div class="page" id="about">
+                <div class="content container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <hr style="width:20%; border-color:orange">
+                            <h2>Who we are</h2>
+                        </div>
+                        <div class="col-sm-9">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                                felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
+                                pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
+                                a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+                                consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
+                                nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
+                                tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                                Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+                                tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget
+                                eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+                                Sed consequat, leo eget bibendum sodales, augue velit cursus nunc</p>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                                It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One
+                                day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World
+                                of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild
+                                Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven
+                                versalia, put her initial into the belt and made herself on the way. When she reached the first hills
+                                of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove,
+                                the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric
+                                question ran over her cheek</p>
+                        </div>
+                    </div> <!--row container -->
+                </div>
+                <!--content Container -->
             </div>
-            <!--carousel inner -->
-            <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#featured" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-        </div>
-        <!--carousel slide -->
-    </header>
-
-    <div class="main">
-        <div class="page" id="about">
-            <div class="content container">
-                <div class="row">
-                <div class="col-sm-3">
+            <!-- about page -->
+            <div class="page" id="projects">
+                <div class="content container-fluid" id="textonproject">
                     <hr style="width:20%; border-color:orange">
-                    <h2>Who we are</h2>
+                    <h2>Projects</h2>
+                    <p>We at PISA are endlessly dedicating to create the benefit for our customer by providing the best solutions,
+                        products and services to meet the highest customers demand in total industrial & automation system.</p>
+
+                    <div class="row">
+                        <div class="project col-md-4 col-sm-6 col-xs-12" >
+                            <img class="icon" src="/images/architecture-1868098_1920.jpg" alt="Automation">
+                            <div class="overlay" id="automation">
+                                <h3 class="projectcat">AUTOMATION</h3>
+                                <h5 class="learnmore"><a href="#">Learn more</a></h5>
+                            </div>
+                        </div>
+
+                        <div class="project col-md-4 col-sm-6 col-xs-12" >
+                            <img class="icon" src="/images/control-cabinet-778639_1920.jpg" alt="Water Treatment">
+                            <div class="overlay" id="water">
+                                <h3 class="projectcat">WATER TREATMENT</h3>
+                                <h5 class="learnmore"><a href="#">Learn more</a></h5>
+                            </div>
+                        </div>
+
+                        <div class="project col-md-4 col-sm-6 col-xs-12" >
+                            <img class="icon" src="/images/To The Sun Wallpaper.jpg" alt="Smart Home">
+                            <div class="overlay" id="smart">
+                                <h3 class="projectcat">SMART HOME</h3>
+                                <h5 class="learnmore"><a href="#">Learn more</a></h5>
+                            </div>
+                        </div>
+
+                        <div class="project col-md-4 col-sm-6 col-xs-12" >
+                            <img class="icon" src="/images/1399624_598714196831268_525745213_o.jpg" alt="Steel">
+                            <div class="overlay" id="steel">
+                                <h3 class="projectcat">STEEL</h3>
+                                <h5 class="learnmore"><a href="#">Learn more</a></h5>
+                            </div>
+                        </div>
+
+                        <div class="project col-md-4 col-sm-6 col-xs-12" >
+                            <img class="icon" src="/images/space-2018735_1920.jpg" alt="Space">
+                            <div class="overlay" id="space">
+                                <h3 class="projectcat">SPACE</h3>
+                                <h5 class="learnmore"><a href="#">Learn more</a></h5>
+                            </div>
+                        </div>
+
+                        <div class="project col-md-4 col-sm-6 col-xs-12">
+                            <img class="icon" src="/images/0086.jpg" alt="Mountain">
+                            <div class="overlay" id="mountain">
+                                <h3 class="projectcat">MOUNTAIN</h3>
+                                <h5 class="learnmore"> <a href="#">Learn more</a> </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row pictures -->
                 </div>
-                <div class="col-sm-9">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-                        felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-                        pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                        a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-                        Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
-                        consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
-                        nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-                        tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-                        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
-                        tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget
-                        eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-                        Sed consequat, leo eget bibendum sodales, augue velit cursus nunc</p>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-                        blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-                        ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
-                        all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One
-                        day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World
-                        of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild
-                        Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven
-                        versalia, put her initial into the belt and made herself on the way. When she reached the first hills
-                        of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove,
-                        the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric
-                        question ran over her cheek</p>
+                <!-- content container -->
+            </div>
+            <!---project page -->
+
+            <div class="page" id="services">
+                <div class="content container-fluid">
+                    <hr style="width:20%; border-color:orange">
+                    <h2>OUR SERVICES</h2>
+
+                    <div class="row">
+                        <div class="service col-md-3 col-sm-6 col-xs-12">
+                            <h3>1. DESIGN</h3>
+                            <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing</p>
+                        </div>
+                        <div class="service col-md-3 col-sm-6 col-xs-12">
+                            <h3>2. IMPLEMENT</h3>
+                            <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing</p>
+                        </div>
+                        <div class="service col-md-3 col-sm-6 col-xs-12">
+                            <h3>3. TESTING</h3>
+                            <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing</p>
+                        </div>
+                        <div class="service col-md-3 col-sm-6 col-xs-12">
+                            <h3>4. MAINTAIN</h3>
+                            <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing</p>
+                        </div>
+                    </div><!-- row-->
+                </div> <!-- content container class -->
+            </div> <!-- service page -->
+
+            <div class="page" id="contact">
+                <div class="content container">
+                    <div class="contactUs">
+                        <img class="maponly" width="640" src="https://maps.googleapis.com/maps/api/staticmap?center=30+mai+hac+de,+Hanoi&zoom=16&scale=2&size=640x450&maptype=terrain&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff005c%7Clabel:1%7C30+mai+hac+de,+Hanoi" alt="Google Map of 30 mai hac de, Hanoi">
+                        <div class="textonMap"> 
+                            <h3>Contact Us</h3>
+                            <p>3235 Vine Street Apt 2, Cincinnati, Ohio</p>
+                            <button>513-807-5359</button>
+                        </div> <!--textOnMap -->
+
+                    </div> <!--contactUS -->
                 </div>
-                </div> <!--row container -->
+                <!--COntact Page -->
             </div>
             <!--content Container -->
         </div>
-        <!-- about page -->
-        <div class="page" id="projects">
-            <div class="content container-fluid" id="textonproject">
-                <hr style="width:20%; border-color:orange">
-                <h2>Projects</h2>
-                <p>We at PISA are endlessly dedicating to create the benefit for our customer by providing the best solutions,
-                    products and services to meet the highest customers demand in total industrial & automation system.</p>
-            
-            <div class="row">
-                <div class="project col-md-4 col-sm-6 col-xs-12" >
-                    <img class="icon" src="/images/architecture-1868098_1920.jpg" alt="Automation">
-                    <div class="overlay" id="automation">
-                        <h3 class="projectcat">AUTOMATION</h3>
-                        <h5 class="learnmore"><a href="#">Learn more</a></h5>
-                    </div>
-                </div>
+        <!--main page -->
 
-                <div class="project col-md-4 col-sm-6 col-xs-12" >
-                    <img class="icon" src="/images/control-cabinet-778639_1920.jpg" alt="Water Treatment">
-                    <div class="overlay" id="water">
-                        <h3 class="projectcat">WATER TREATMENT</h3>
-                        <h5 class="learnmore"><a href="#">Learn more</a></h5>
+        <footer>
+            <div class="content container">
+                <div class="row">
+                    <div class="bottom col-md-3 col-sm-6 col-xs-12" id="logo">
+                        <a href="#featured"><img src="/images/17779042_1381302161909168_2060554510_o.png" alt="logo"></a>
+                    </div> <!--column for LOGO Footer -->
+                    <div class="bottom col-md-3 col-sm-6 col-xs-12" id="servicesFooter">
+                        <ul>
+                            <li>Services</li>
+                            <li><a href="#">Steel</a></li>
+                            <li><a href="#">Water Treatment</a></li>
+                            <li><a href="#">Smart Home</a></li>
+                            <li><a href="#">Space</a></li>
+                            <li><a href="#">Mountain</a></li>
+                        </ul>
                     </div>
-                </div>
+                    <!--column for serviceFooter-->
+                    <div class="col-md-3 col-sm-6 col-xs-12" id="companyFooter">
+                        <ul>
+                            <li>Company</li>
+                            <li></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!--column -->
 
-                <div class="project col-md-4 col-sm-6 col-xs-12" >
-                    <img class="icon" src="/images/To The Sun Wallpaper.jpg" alt="Smart Home">
-                    <div class="overlay" id="smart">
-                        <h3 class="projectcat">SMART HOME</h3>
-                        <h5 class="learnmore"><a href="#">Learn more</a></h5>
+                    <div class="col-md-3 col-sm-6 col-xs-12" id="learnmoreFooter">
+                        <ul>
+                            <li>Learn More</li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">F.A.Q</a></li>
+                        </ul>
                     </div>
+                    <!--column -->
                 </div>
-                
-                <div class="project col-md-4 col-sm-6 col-xs-12" >
-                    <img class="icon" src="/images/1399624_598714196831268_525745213_o.jpg" alt="Steel">
-                    <div class="overlay" id="steel">
-                        <h3 class="projectcat">STEEL</h3>
-                        <h5 class="learnmore"><a href="#">Learn more</a></h5>
-                    </div>
-                </div>
-
-                <div class="project col-md-4 col-sm-6 col-xs-12" >
-                    <img class="icon" src="/images/space-2018735_1920.jpg" alt="Space">
-                    <div class="overlay" id="space">
-                        <h3 class="projectcat">SPACE</h3>
-                        <h5 class="learnmore"><a href="#">Learn more</a></h5>
-                    </div>
-                </div>
-
-                <div class="project col-md-4 col-sm-6 col-xs-12">
-                    <img class="icon" src="/images/0086.jpg" alt="Mountain">
-                    <div class="overlay" id="mountain">
-                        <h3 class="projectcat">MOUNTAIN</h3>
-                        <h5 class="learnmore"> <a href="#">Learn more</a> </h5>
-                    </div>
-                </div>
+                <!--row -->
             </div>
-            <!-- row pictures -->
-            </div>
-            <!-- content container -->
-        </div>
-        <!---project page -->
-
-        <div class="page" id="services">
-            <div class="content container-fluid">
-                <hr style="width:20%; border-color:orange">
-                <h2>OUR SERVICES</h2>
-                
-            <div class="row">
-                <div class="service col-md-3 col-sm-6 col-xs-12">
-                    <h3>1. DESIGN</h3>
-                    <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing</p>
-                </div>
-                <div class="service col-md-3 col-sm-6 col-xs-12">
-                    <h3>2. IMPLEMENT</h3>
-                    <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing</p>
-                </div>
-                <div class="service col-md-3 col-sm-6 col-xs-12">
-                    <h3>3. TESTING</h3>
-                    <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing</p>
-                </div>
-                <div class="service col-md-3 col-sm-6 col-xs-12">
-                    <h3>4. MAINTAIN</h3>
-                    <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing</p>
-                </div>
-            </div><!-- row-->
-            </div> <!-- content container class -->
-        </div> <!-- service page -->
-        
-    
-
-        <div class="page" id="contact">
-        <div class="content container">
-                <div class="contactUs">
-                    <img class="maponly" width="640" src="https://maps.googleapis.com/maps/api/staticmap?center=30+mai+hac+de,+Hanoi&zoom=16&scale=2&size=640x450&maptype=terrain&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff005c%7Clabel:1%7C30+mai+hac+de,+Hanoi" alt="Google Map of 30 mai hac de, Hanoi">
-                    <div class="textonMap"> 
-                        <h3>Contact Us</h3>
-                        <p>3235 Vine Street Apt 2, Cincinnati, Ohio</p>
-                        <button>513-807-5359</button>
-                    </div> <!--textOnMap -->
-                    
-                </div> <!--contactUS -->
-            </div>
-            <!--COntact Page -->
-        </div>
-        <!--content Container -->
-    </div>
-    <!--main page -->
-
-    <footer>
-        <div class="content container">
-            <div class="row">
-                <div class="bottom col-md-3 col-sm-6 col-xs-12" id="logo">
-                    <a href="#featured"><img src="/images/17779042_1381302161909168_2060554510_o.png" alt="logo"></a>
-                </div> <!--column for LOGO Footer -->
-                <div class="bottom col-md-3 col-sm-6 col-xs-12" id="servicesFooter">
-                    <ul>
-                        <li>Services</li>
-                        <li><a href="#">Steel</a></li>
-                        <li><a href="#">Water Treatment</a></li>
-                        <li><a href="#">Smart Home</a></li>
-                        <li><a href="#">Space</a></li>
-                        <li><a href="#">Mountain</a></li>
-                    </ul>
-                </div>
-                <!--column for serviceFooter-->
-                <div class="col-md-3 col-sm-6 col-xs-12" id="companyFooter">
-                    <ul>
-                        <li>Company</li>
-                        <li></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
-                    </ul>
-                </div>
-                <!--column -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12" id="learnmoreFooter">
-                    <ul>
-                        <li>Learn More</li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Developers</a></li>
-                        <li><a href="#">F.A.Q</a></li>
-                    </ul>
-                </div>
-                <!--column -->
-            </div>
-            <!--row -->
-        </div>
-        <!-- content Container -->
-    </footer>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="js/myscript.js"></script>
-</body>
+            <!-- content Container -->
+        </footer>      
+    </body>
 
 </html>
