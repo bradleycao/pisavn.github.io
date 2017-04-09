@@ -45,7 +45,13 @@ jQuery(document).ready(function ($) {
 //        target: 'header .navbar'
 //    });
 //
-//    $('.carousel').carousel({
-//        interval: false
-//    });
+
+    $(".owl-carousel").owlCarousel({
+        items:6,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000
+       
+    });
+
 })
